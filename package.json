@@ -12,7 +12,8 @@
   "scripts": {
     "start": "node app.js"
   },
-  "engines": {
-    "node": "^22.2.0"
-  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mysql": "^2.18.1"
+  }
 }
